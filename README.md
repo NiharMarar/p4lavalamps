@@ -21,7 +21,7 @@ Our easter egg is accesible through the navigation bar as a hidden button, but c
 
 
 # Big Ticket Items
-This information can also be found on our scrum board: https://github.com/ryanmgds/P4-Wildcats/projects/1 
+This information can also be found on our scrum board: 
 
 ## Survey Table (CRUD)
 Ryan worked on this. You can find it in the navbar, and you can fill out a survey report, rating your experience on our website. You also have the option to leave your contact information. Contains data filtering, however this portion is still needs some work. Link to code for tables: https://github.com/ryanmgds/P4-Wildcats/blob/main/templates/healthydinners.html , link to code that contains format of page: https://github.com/ryanmgds/P4-Wildcats/blob/main/templates/base.html
@@ -44,7 +44,7 @@ Still in progress, attempted deployment on RPI many times, have failed. Will try
 /5
 
 ## Individual Scores
-Ryan Moghaddas: 
+: 
 10/10,
 total: /25
 
@@ -56,12 +56,12 @@ Colin Tran:
 /10,
 total: /25
 
-Gavin Theriault:
+:
 /10,
 total: /25
 
-## P4-Wildcats Creators
-Colin Tran, Ryan Moghaddas, Bryce Modugno, Gavin Theriault
+## P4-lavalamps Creators
+Nihar Marar, Colin Tran, Luca Pinto, Bryce Modugno, Francis Lim
 
 
 
