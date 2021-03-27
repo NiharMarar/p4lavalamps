@@ -2,6 +2,8 @@
 # Big Ticket Items
 This information can also be found on our scrum board: 
 
+[Scrum Board](https://github.com/NiharMarar/p4lavalamps/projects/1)
+
 [Ticket #1](https://github.com/NiharMarar/p4lavalamps/projects/1#card-57811754)
 
 [Ticket #2](https://github.com/NiharMarar/p4lavalamps/projects/1#card-57811761)
