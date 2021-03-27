@@ -1,7 +1,16 @@
 
 # Big Ticket Items
 This information can also be found on our scrum board: 
+
 [Ticket #1](https://github.com/NiharMarar/p4lavalamps/projects/1#card-57811754)
+
+[Ticket #2](https://github.com/NiharMarar/p4lavalamps/projects/1#card-57811761)
+
+[Ticket #3](https://github.com/NiharMarar/p4lavalamps/projects/1#card-57811778)
+
+[Ticket #4](https://github.com/NiharMarar/p4lavalamps/projects/1#card-57811783)
+
+[Ticket #5](https://github.com/NiharMarar/p4lavalamps/projects/1#card-57811796)
 
 # Covid DataBase
 This is our trimester 3 project for AP CS Principles. We aspire to create an easy platform for users to get information on COVID-19.
