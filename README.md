@@ -1,5 +1,5 @@
 # Covid DataBase
-This is our trimester 2 project for AP CS Principles. We aspire to create an easy platform for users to get information on COVID-19.
+This is our trimester 3 project for AP CS Principles. We aspire to create an easy platform for users to get information on COVID-19.
 
 ## How to run our Covid Database
 RPI / AWS in progress at the moment.
