@@ -6,8 +6,12 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def home():
+def home_route():
     return render_template("home.html")
+    if not session.get('logged_in'):
+        return render_template('login.html')
+    else:
+        return render_template("home.html")
 
 @app.route('/email', methods = ['POST'])
 def email():
