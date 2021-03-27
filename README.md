@@ -35,31 +35,6 @@ Link to new statistics pulled here:
 ## Raspberry pi deployment / AWS??
 Still in progress, attempted deployment on RPI many times, have failed. Will try out AWS.
 
-# 1/15 Scrum Grading
-
-## Team Score
-9/10
-
-## Presentation Score
-/5
-
-## Individual Scores
-: 
-10/10,
-total: /25
-
-Bryce Modguno:
-10/10,
-total: /25
-
-Colin Tran:
-/10,
-total: /25
-
-:
-/10,
-total: /25
-
 ## P4-lavalamps Creators
 Nihar Marar, Colin Tran, Luca Pinto, Bryce Modugno, Francis Lim
 
