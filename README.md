@@ -1,5 +1,21 @@
+
+# Big Ticket Items
+This information can also be found on our scrum board: 
+
+[Scrum Board](https://github.com/NiharMarar/p4lavalamps/projects/1)
+
+[Ticket #1](https://github.com/NiharMarar/p4lavalamps/projects/1#card-57811754)
+
+[Ticket #2](https://github.com/NiharMarar/p4lavalamps/projects/1#card-57811761)
+
+[Ticket #3](https://github.com/NiharMarar/p4lavalamps/projects/1#card-57811778)
+
+[Ticket #4](https://github.com/NiharMarar/p4lavalamps/projects/1#card-57811783)
+
+[Ticket #5](https://github.com/NiharMarar/p4lavalamps/projects/1#card-57811796)
+
 # Covid DataBase
-This is our trimester 2 project for AP CS Principles. We aspire to create an easy platform for users to get information on COVID-19.
+This is our trimester 3 project for AP CS Principles. We aspire to create an easy platform for users to get information on COVID-19.
 
 ## How to run our Covid Database
 RPI / AWS in progress at the moment.
@@ -18,11 +34,6 @@ Our easter egg is accesible through the navigation bar as a hidden button, but c
 
 - Allow users to access other reviews, and be able to rate off stars, not just inputting a number.
 
-
-
-# Big Ticket Items
-This information can also be found on our scrum board: 
-
 ## Survey Table (CRUD)
 Ryan worked on this. You can find it in the navbar, and you can fill out a survey report, rating your experience on our website. You also have the option to leave your contact information. Contains data filtering, however this portion is still needs some work. Link to code for tables: https://github.com/ryanmgds/P4-Wildcats/blob/main/templates/healthydinners.html , link to code that contains format of page: https://github.com/ryanmgds/P4-Wildcats/blob/main/templates/base.html
 
@@ -34,31 +45,6 @@ Link to new statistics pulled here:
 
 ## Raspberry pi deployment / AWS??
 Still in progress, attempted deployment on RPI many times, have failed. Will try out AWS.
-
-# 1/15 Scrum Grading
-
-## Team Score
-9/10
-
-## Presentation Score
-/5
-
-## Individual Scores
-: 
-10/10,
-total: /25
-
-Bryce Modguno:
-10/10,
-total: /25
-
-Colin Tran:
-/10,
-total: /25
-
-:
-/10,
-total: /25
 
 ## P4-lavalamps Creators
 Nihar Marar, Colin Tran, Luca Pinto, Bryce Modugno, Francis Lim
