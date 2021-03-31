@@ -1,5 +1,8 @@
+## [Runtime link](http://76.176.58.222:8080)
+## [Project Plan](https://docs.google.com/document/d/1jFsNd60ciywY2JGjk6y6JcO2YbzQW44f9djSQCLXTu0/edit)
 
-# Big Ticket Items
+
+## Big Ticket Items
 This information can also be found on our scrum board: 
 
 [Scrum Board](https://github.com/NiharMarar/p4lavalamps/projects/1)
@@ -14,7 +17,7 @@ This information can also be found on our scrum board:
 
 [Ticket #5](https://github.com/NiharMarar/p4lavalamps/projects/1#card-57811796)
 
-# Covid DataBase
+## Covid DataBase
 This is our trimester 3 project for AP CS Principles. We aspire to create an easy platform for users to get information on COVID-19.
 
 ## How to run our Covid Database
