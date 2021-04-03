@@ -1,5 +1,27 @@
+### MINILAB GRADING
+#### Nihar Marar MiniLab: Classes in Python
+#### Francis Lim MiniLab: Classes in Python
 
-# Big Ticket Items
+[1. Use an individual section (blueprint) in your Scrum Team project for Mini Lab definition and execution](https://github.com/NiharMarar/p4lavalamps/blob/d982d05143d29c7d44706dd7c7ba90158b1df79b/blueprint/francislim/minilab_FL.py#L2-L17)
+
+[2. Enhance or Define a Class to manage a complex data set](https://github.com/NiharMarar/p4lavalamps/blob/d982d05143d29c7d44706dd7c7ba90158b1df79b/blueprint/francislim/minilab_FL.py#L20-L28)
+
+[3. Create an Object from a Class in Python](https://github.com/NiharMarar/p4lavalamps/blob/d982d05143d29c7d44706dd7c7ba90158b1df79b/blueprint/francislim/minilab_FL.py#L31-L36)
+
+[4. Display data or enhanced data from this Python Object on Project Web Page using "getters"](https://github.com/NiharMarar/p4lavalamps/blob/d982d05143d29c7d44706dd7c7ba90158b1df79b/blueprint/francislim/minilab_FL.py#L39-L55)
+
+[5. Highlight WOW or insight in doing this project.  (ie Mastery Show adding timing to Class to Displaying it on Web)](https://github.com/NiharMarar/p4lavalamps/blob/d982d05143d29c7d44706dd7c7ba90158b1df79b/blueprint/francislim/minilab_FL.py#L59-L65)
+
+#### Bryce Modugno MiniLab: Classes in Python
+#### Colin Tran MiniLab: Classes in Python
+#### Luca Pinto MiniLab: Classes in Python
+
+
+## [Runtime link](http://76.176.58.222:8080)
+## [Project Plan](https://docs.google.com/document/d/1jFsNd60ciywY2JGjk6y6JcO2YbzQW44f9djSQCLXTu0/edit)
+
+
+## Big Ticket Items
 This information can also be found on our scrum board: 
 
 [Scrum Board](https://github.com/NiharMarar/p4lavalamps/projects/1)
@@ -14,7 +36,7 @@ This information can also be found on our scrum board:
 
 [Ticket #5](https://github.com/NiharMarar/p4lavalamps/projects/1#card-57811796)
 
-# Covid DataBase
+## Covid DataBase
 This is our trimester 3 project for AP CS Principles. We aspire to create an easy platform for users to get information on COVID-19.
 
 ## How to run our Covid Database
