@@ -14,6 +14,9 @@
 
 #### Bryce Modugno MiniLab: Classes in Python
 #### Colin Tran MiniLab: Classes in Python
+
+Minilab: https://github.com/NiharMarar/p4lavalamps/blob/ff4ea800e3e07457bdf8a0b3318c3cd2efd311b9/blueprint/colintran/minilab.py
+
 #### Luca Pinto MiniLab: Classes in Python
 
 
