@@ -1,5 +1,16 @@
 ### MINILAB GRADING
 #### Nihar Marar MiniLab: Classes in Python
+
+[1. Use an individual section (blueprint) in your Scrum Team project for Mini Lab definition and execution](https://github.com/NiharMarar/p4lavalamps/blob/3302274eb12c352aaf25b50fe64f07b1ff4dad23/blueprint/nihgarmarar/minilab_NM.py#L3-L17)
+
+[2. Enhance or Define a Class to manage a complex data set](https://github.com/NiharMarar/p4lavalamps/blob/3302274eb12c352aaf25b50fe64f07b1ff4dad23/blueprint/nihgarmarar/minilab_NM.py#L20-L28)
+
+[3. Create an Object from a Class in Python](https://github.com/NiharMarar/p4lavalamps/blob/3302274eb12c352aaf25b50fe64f07b1ff4dad23/blueprint/nihgarmarar/minilab_NM.py#L31-L36)
+
+[4. Display data or enhanced data from this Python Object on Project Web Page using "getters"](https://github.com/NiharMarar/p4lavalamps/blob/3302274eb12c352aaf25b50fe64f07b1ff4dad23/blueprint/nihgarmarar/minilab_NM.py#L39-L55)
+
+[5. Highlight WOW or insight in doing this project.  (ie Mastery Show adding timing to Class to Displaying it on Web)](https://github.com/NiharMarar/p4lavalamps/blob/3302274eb12c352aaf25b50fe64f07b1ff4dad23/blueprint/nihgarmarar/minilab_NM.py#L59-L66)
+
 #### Francis Lim MiniLab: Classes in Python
 
 [1. Use an individual section (blueprint) in your Scrum Team project for Mini Lab definition and execution](https://github.com/NiharMarar/p4lavalamps/blob/d982d05143d29c7d44706dd7c7ba90158b1df79b/blueprint/francislim/minilab_FL.py#L2-L17)
