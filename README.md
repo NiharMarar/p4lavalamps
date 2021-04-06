@@ -29,6 +29,7 @@
 Minilab: https://github.com/NiharMarar/p4lavalamps/blob/ff4ea800e3e07457bdf8a0b3318c3cd2efd311b9/blueprint/colintran/minilab.py
 
 #### Luca Pinto MiniLab: Classes in Python
+https://github.com/NiharMarar/p4lavalamps/blob/061f742929b56c769779f74274ca5646e6e053ae/blueprint/lucapinto/minilab.py#L1-L61
 
 
 ## [Runtime link](http://76.176.58.222:8080)
