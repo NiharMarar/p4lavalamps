@@ -1,3 +1,12 @@
+import random
+
+
+booklist1 = ["The Great Gatsby,", "To Kill a Mockingbird", "Catch-22", "Pride and Prejudice", "The Scarlet Letter", "War and Peace", "One Hundred Years of Solitude", "The Sun Also Rises"]
+
+booklist2 = ["To Kill a Mockingbird,", "The Scarlette Letter", "War and Peace"]
+
+
+
 
 #1: setting up the class
 class Books:
