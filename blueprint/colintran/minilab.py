@@ -1,51 +1,48 @@
-import json
+# Python program for simple calculator
 
-# dictionaries
-colin = { "name":"Colin", "age":17, "food":"Sushi", "city":San Diego}
-cory= { "name":"Cory", "age":18, "food":"Rice", "city":San Diego}
-keven= { "name":"Keven", "age":24, "food":"Tacos", "city":Orange County}
-susan= { "name":"Susan", "age":50, "food":"Bagels", "city":Saigon}
+# Function to add two numbers 
+def add(num1, num2):
+    return num1 + num2
 
-# making a list with dictionaries and printing it
-list_of_family = [colin, cory, keven, susan]
-print("List of family members:")
-#print(type(list_of_family))
-print(list_of_family)
-print("Individual family members")
-for person in list_of_family:
-    print(person['name'] + "," + str(person['age']) + "," + person['food'] + "," + str(person['city']))
-print()
+# Function to subtract two numbers 
+def subtract(num1, num2):
+    return num1 - num2
 
-# turn list to dictionary of family
-family = {'people': list_of_family}
-print(family)
-print("Dictionary of family:")
-dictionary_list_of_family = family['people']
-print(dictionary_list_of_family)
-print()
+# Function to multiply two numbers
+def multiply(num1, num2):
+    return num1 * num2
 
-# turn dictionary to JSON
-json_family = json.dumps(dictionary_list_of_family)
-print("JSON family file")
-print(json_family)
-print(family)
-for char in json_family:
-    print(char, end ="_")
-print()
+# Function to divide two numbers
+def divide(num1, num2):
+    return num1 / num2
+
+print("Please select operation -\n" \
+      "1. Add\n" \
+      "2. Subtract\n" \
+      "3. Multiply\n" \
+      "4. Divide\n")
 
 
-# the result is a JSON file:
-print()
-print(json_family)
-family = json.loads(json_family)
+# Take input from the user
+select = int(input("Select operations form 1, 2, 3, 4 :"))
 
+number_1 = int(input("Enter first number: "))
+number_2 = int(input("Enter second number: "))
 
-colin = { "name":"Colin", "age":17, "food":"Sushi", "city":San Diego}
-cory= { "name":"Cory", "age":18, "food":"Rice", "city":San Diego}
-keven= { "name":"Keven", "age":24, "food":"Tacos", "city":Orange County}
-susan= { "name":"Susan", "age":50, "food":"Bagels", "city":Saigon}
-list_of_players = [colin, cory, keven, susan]
-family ={'people': list_of_family}
-dictionary_list_of_players = family['people']
-json_players=json.dumps(dictionary_list_of_family)
-print(json_family)
+if select == 1:
+    print(number_1, "+", number_2, "=",
+          add(number_1, number_2))
+
+    elif select == 2:
+    print(number_1, "-", number_2, "=",
+          subtract(number_1, number_2))
+
+elif select == 3:
+    print(number_1, "*", number_2, "=",
+          multiply(number_1, number_2))
+
+elif select == 4:
+    print(number_1, "/", number_2, "=",
+          divide(number_1, number_2))
+else:
+    print("Invalid input")
