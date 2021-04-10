@@ -33,7 +33,7 @@ if select == 1:
     print(number_1, "+", number_2, "=",
           add(number_1, number_2))
 
-    elif select == 2:
+elif select == 2:
     print(number_1, "-", number_2, "=",
           subtract(number_1, number_2))
 
