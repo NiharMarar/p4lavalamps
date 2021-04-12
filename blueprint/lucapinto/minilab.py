@@ -1,16 +1,16 @@
 import json
 #Make a Dictionary of my family.  Have at least 4 attributes per person.
-fm1 = { "name":"Luca ", "age":16, "sport":"waterpolo", "color":"blue", "sibling":True}
-fm2 = { "name":"Matteo", "age":16, "sport":"track", "color":"orange", "sibling":True}
-fm3 = { "name":"Davide", "age":25, "sport":"tennis", "color":"blue", "sibling":True}
-fm4 = { "name":"Simona", "age":23, "sport":"basketball", "color":"red", "parent":True}
+fm1 = { "name":"Luca ", "age":17, "sport":"waterpolo", "color":"blue", "sibling":True}
+fm2 = { "name":"Matteo", "age":25, "sport":"track", "color":"orange", "sibling":True}
+fm3 = { "name":"Davide", "age":22, "sport":"tennis", "color":"blue", "sibling":True}
+fm4 = { "name":"Simona", "age":45, "sport":"basketball", "color":"red", "parent":True}
 fm5 = { "name":"Angelo", "age":47, "sport":"weightlifting", "color":"green", "parent":True}
 familymem = [fm1, fm2, fm3, fm4, fm5]
 print("List Of Family Members")
 print(type(familymem))
 print(familymem)
 print()
-for family_member in family:
+for family_member in familymem:
     print(family_member['name'] + ", " + str(family_member['age']) + ", " + family_member['sport'] + ", " + family_member['color'])
 print()
 family = {'familylist': familymem}
