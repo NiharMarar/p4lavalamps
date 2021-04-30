@@ -13,6 +13,11 @@ def home_route():
     else:
         return render_template("home.html")
 
+@app.route('/bfsort', methods = ['POST'])
+def bfsort_bp():
+    return render_template("bfsort.html")
+
+
 @app.route('/email', methods = ['POST'])
 def email():
     email = request.form['email']
@@ -53,7 +58,6 @@ def datatable():
             "price":request.form["price"]
         })
     return render_template("healthylunches.html", lunches=lunches)
-
 
 @app.route('/main')
 def main():

@@ -21,7 +21,7 @@ class Fibonacci:
     """Algorithm for building Fibonacci sequence, this id called from __init__"""
     def calc_series(self):
         limit = self._series
-        f = [0, 1]  # fibonacci starting array/list
+        f = [0, 2]  # fibonacci starting array/list
         while limit > 0:
             self.set_data(f[0])
             f = [f[1], f[0] + f[1]]
