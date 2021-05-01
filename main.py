@@ -30,6 +30,10 @@ def email():
     print ("email sent to:", email)
     return render_template("home.html")
 
+@app.route('/bubblesort', methods = ['POST'])
+def bubblesort():
+    return render_template("bubblesort.html")
+
 @app.route('/easteregg', methods = ['POST'])
 def easteregg_bp():
     return render_template("easteregg.html")
