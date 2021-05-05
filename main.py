@@ -42,6 +42,9 @@ def BubbleSort():
 def bubblesort():
     return render_template("bubblesort.html")
 
+@app.route('/niharbb', methods=['POST'])
+def niharbb():
+    return render_template("niharbb.html")
 
 @app.route('/easteregg', methods=['POST'])
 def easteregg_bp():

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bubble Sort</title>
+</head>
+
+<style>
+.container{
+text-align: center;
+border: 7px solid black;
+width: 1000px;
+height: 200px;
+padding-top: 100px;
+}
+.containertext{
+text-align:center;
+}
+</style>
+<body>
+<div class = containertext>
+    <h1>Insertion sort VS. Selection Sort</h1>
+    <p>&nbsp;</p>
+    <br>
+    Insertion sort and Selection sort both have two components: an unsorted list and a sorted list.
+    They both take one element from the unsorted list and put it into the sorted list at the proper place.
+    <p>&nbsp;</p>
+    A Selection Sort is given a list, takes the current element and exchanges it with the smallest element on the right hand side of the current element.
+    <br>
+    A Insertion Sort is given a list, takes the current element and inserts it at the appropriate position of the list, adjusting the list every time you insert.
+    <p>&nbsp;</p>
+    Both insertion sort and selection sort have an outer loop (over every index), and an inner loop (over a subset of indices).
+    Each pass of the inner loop expands the sorted region by one element, at the expense of the unsorted region, until it runs out of unsorted elements.
+    <p>&nbsp;</p>
+    In selection sort, the inner loop is over the unsorted elements. Each pass selects one element, and moves it to its final location (at the current end of the sorted region).
+    <br>
+    In insertion sort, each pass of the inner loop iterates over the sorted elements. Sorted elements are displaced until the loop finds the correct place to insert the next unsorted element.
+    <p>&nbsp;</p>
+    So, in a selection sort, sorted elements are found in output order, and stay put once they are found. Conversely, in an insertion sort, the unsorted elements stay put until consumed in input order, while elements of the sorted region keep getting moved around.
+    <br>
+    <br>
+    <br>
+</div>
+<div class = container>
+    <form action="/bubble" method = "post">
+
+        <input type="text" placeholder="Input number here" name="bubble" required>
+        <input type="submit" value="Sort!">
+
+    </form>
+</div>
+</body>
+</html>
