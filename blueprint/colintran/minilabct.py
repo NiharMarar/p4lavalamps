@@ -7,14 +7,14 @@ app = Flask(__name__)
 def BubbleSort:
     # import user input
     strnum = request.form['strnum']
-    # spliting the string based on white space
+    # splitting the string based on white space
     strarr = strnum.split()
     # converting string array to integer list
     intlist = map(int, strarr)
     # getting length of list in order to know how many times to iterate
     n = len(intlist)
 
-# Filter through array
+    # Filter through array
     for i in range(n):
 
         # Last i elements are already in place
@@ -25,15 +25,11 @@ def BubbleSort:
             if intlist[j] > intlist[j + 1]:
                 intlist[j], intlist[j + 1] = intlist[j + 1], intlist[j]
 
-    # Numbers to be sorted, including user inputted number
-    arr = [strnum]
 
-    # sort
-    BubbleSort(arr)
 
     print("Sorted array is:")
-    for i in range(len(arr)):
-        print("%d" % arr[i])
+    for i in range(len(intlist)):
+        print("%d" % intlist[i])
 
     # return home
     return render_template("testing.html")
