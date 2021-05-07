@@ -7,8 +7,11 @@ app = Flask(__name__)
 def BubbleSort:
     # import user input
     strnum = request.form['strnum']
+    # spliting the string based on white space
     strarr = strnum.split()
+    # converting string array to integer list
     intlist = map(int, strarr)
+    # getting length of list in order to know how many times to iterate
     n = len(intlist)
 
 # Filter through array
