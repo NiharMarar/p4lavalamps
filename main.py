@@ -2,16 +2,18 @@ from flask import Flask, render_template, request, redirect
 
 import smtplib
 
+
+
 app = Flask(__name__)
 
 
 @app.route('/')
 def home_route():
     return render_template("home.html")
-    if not session.get('logged_in'):
-        return render_template('login.html')
-    else:
-        return render_template("home.html")
+    #if not session.get('logged_in'):
+        #return render_template('login.html')
+    #else:
+        #return render_template("home.html")
 
 
 @app.route('/bfsort', methods=['POST'])
@@ -45,6 +47,7 @@ def bubblesort():
 @app.route('/niharbb', methods=['POST'])
 def niharbb():
     return render_template("niharbb.html")
+
 
 @app.route('/easteregg', methods=['POST'])
 def easteregg_bp():

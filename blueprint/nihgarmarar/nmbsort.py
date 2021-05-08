@@ -1,34 +1,46 @@
-from flask import Flask, render_template, request
+def bubble_sort(our_list):
+    # We go through the list as many times as there are elements
+    for i in range(len(our_list)):
+        # We want the last pair of adjacent elements to be (n-2, n-1)
+        for j in range(len(our_list) - 1):
+            if our_list[j] > our_list[j+1]:
+                # Swap
+                our_list[j], our_list[j+1] = our_list[j+1], our_list[j]
 
-app = Flask(__name__)
+print(
+    "Enter as many # as you want.\n Any positive #.\nLeave a space between each one."
+)
+numbers = input()
+items = [int(num) for num in numbers.split() if num.isdigit()]
+our_list = items
+bubble_sort(our_list)
 
 
-@app.route('/bubble', methods=['POST'])
-def bubbleSort(arr):
-    # import user input
-    bubble = request.form['bubble']
-    n = len(arr)
 
-    # Filter through array
-    for i in range(n):
+print(our_list)
 
-        # Last i elements are already in place
-        for j in range(0, n - i - 1):
-
-            # Filter the array from 0 to n-i-1
-            # Swap if the number found is greater than the next number
-            if arr[j] > arr[j + 1]:
-                arr[j], arr[j + 1] = arr[j + 1], arr[j]
-
-    # Numbers to be sorted, including user inputted number
-    arr = [64, 34, 25, 12, 22, 11, 90, bubble]
-
-    # sort
-    bubbleSort(arr)
-
-    print("Sorted array is:")
-    for i in range(len(arr)):
-        print("%d" % arr[i])
-
-    # return home
-    return render_template("bfsort.html")
+# def niharbb():
+#
+#     if request.method == 'POST':
+#         form = request.form
+#         def bubble_sort(our_list):
+#             # We go through the list as many times as there are elements
+#             for i in range(len(our_list)):
+#                 # We want the last pair of adjacent elements to be (n-2, n-1)
+#                 for j in range(len(our_list) - 1):
+#                     if our_list[j] > our_list[j+1]:
+#                         # Swap
+#                         our_list[j], our_list[j+1] = our_list[j+1], our_list[j]
+#
+#         print(
+#             "Enter as many # as you want.\n Any positive #.\nLeave a space between each one."
+#         )
+#         numbers = input()
+#         items = [int(num) for num in numbers.split() if num.isdigit()]
+#         our_list = items
+#         bubble_sort(our_list)
+#
+#
+#
+#         nbbb = print(our_list)
+#         return render_template("niharbb.html", display = nbbb)
