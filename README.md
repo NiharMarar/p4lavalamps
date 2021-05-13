@@ -1,4 +1,21 @@
 ### MINILAB GRADING
+
+## Big Ticket Items   5/14/21
+This information can also be found on our scrum board: 
+
+[Scrum Board](https://github.com/NiharMarar/p4lavalamps/projects/1)
+
+[Ticket #1 Nihar](https://github.com/NiharMarar/p4lavalamps/projects/1#card-57811623)
+
+[Ticket #2 Francis](https://github.com/NiharMarar/p4lavalamps/projects/1#card-61065965)
+
+[Ticket #3 Bryce](https://github.com/NiharMarar/p4lavalamps/projects/1#card-57811778)
+
+[Ticket #4 Luca](https://github.com/NiharMarar/p4lavalamps/projects/1#card-60907196)
+
+[Ticket #5 Colin](https://github.com/NiharMarar/p4lavalamps/projects/1#card-57811559)
+
+
 #### Nihar Marar MiniLab: Classes in Python
 
 [1. Use an individual section (blueprint) in your Scrum Team project for Mini Lab definition and execution](https://github.com/NiharMarar/p4lavalamps/blob/3302274eb12c352aaf25b50fe64f07b1ff4dad23/blueprint/nihgarmarar/minilab_NM.py#L3-L17)
