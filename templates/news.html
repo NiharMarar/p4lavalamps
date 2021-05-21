@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <title>Database</title>
+    <link rel="shortcut icon" href="a198cd0c_e2f0_4c99_ba51_342624a24db9_WP4_icon.ico" type="image/x-icon"/>
+    <link href = "https://fonts.googleapis.com/css?family=Nunito+Sans:400,900&display=swap" rel="stylesheet">
+    <style>
+     body {
+                 background-image: url(https://wallpaperaccess.com/full/2124358.jpg); no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+* {
+  box-sizing: border-box;
+}
+body,#artInput{text-align: center;}
+#artInput {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/221px-Vector_search_icon.svg.png')
+  background-position: 10px 10px
+  background-repeat: no-repeat;
+  background-size: 25px;
+  width: 60%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  border-radius: 25px;
+}
+#artInput:focus {
+  outline:none
+}
+#quizTable {
+  border-collapse: collapse;
+  width: 85%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+  margin-bottom:40px;
+}
+#quizTable th, #artTable td {
+  text-align: left;
+  font-weight: bold;
+  padding: 12px;
+  text-align: center;
+
+}
+#quizTable tr {
+  border-bottom: 1px solid #ddd;
+  font-weight: bold;
+
+}
+#quizTable tr.header, #artTable tr:hover {
+  background-color: #f1f1f1;
+
+}
+a {
+  color: #f56642;
+}
+
+h2, h1, p {
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
+h3{
+  text-align: right;
+}
+
+@keyframes artshadow {
+  from {}
+  to {text-shadow: 2px 2px 5px black;}
+}
+h1 {
+  color: #f56642;
+  transition: 0.3s;
+}
+</style>
+</head>
+<body>
+<!-- brings in the navbar -->
+{% extends "navigation.html" %}
+
+<!-- all the text that is in the page -->
+{% block content %}
+<h1><b>Covid News</b></h1>
+<h2>Search your Covid News</h2>
+<div class="centerenter">
+    <center><input type="text" id="artInput" onkeyup="artFunction()" placeholder="Search Covid News" title="Work search"></center>
+</div>
+
+<p id="demo"></p>
+<div id="tableDiv" class="tablesearch">
+    <table id="quizTable" align="center">
+        <tr class="header">
+            <th style="width:25%">Attempt #</th>
+            <th style="width:25%">Questions Wrong</th>
+            <th style="width:25%">Questions Right</th>
+            <th style="width:25%">Result</th>
+        </tr>
+    </table>
+</div>
+
+{% endblock %}
+</body>
+</html>
