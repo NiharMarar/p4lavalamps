@@ -20,6 +20,10 @@ def home_route():
 def bfsort_bp():
     return render_template("bfsort.html")
 
+@app.route('/Noahbubble', methods=['POST'])
+def Noahbubblesort():
+    return render_template("Noahbubble.html")
+
 
 @app.route('/email', methods=['POST'])
 def email():
