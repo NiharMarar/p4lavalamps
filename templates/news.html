@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:font-size="http://www.w3.org/1999/xhtml">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
@@ -76,8 +76,12 @@ h3{
   to {text-shadow: 2px 2px 5px black;}
 }
 h1 {
-  color: #f56642;
+  color: #FF0000;
   transition: 0.3s;
+}
+h4 {
+  color: #f56642;
+  font-size: 40px;
 }
 </style>
 </head>
@@ -87,7 +91,7 @@ h1 {
 
 <!-- all the text that is in the page -->
 {% block content %}
-<h1><b>Covid News</b></h1>
+<h1 style="color: red;"><b>Covid News</b></h1>
 <h2>Search your Covid News</h2>
 <div class="centerenter">
     <center><input type="text" id="artInput" onkeyup="artFunction()" placeholder="Search Covid News" title="Work search"></center>
@@ -97,14 +101,14 @@ h1 {
 <div id="tableDiv" class="tablesearch">
     <table id="quizTable" align="center">
         <tr class="header">
-            <th style="width:25%">Attempt #</th>
-            <th style="width:25%">Questions Wrong</th>
-            <th style="width:25%">Questions Right</th>
-            <th style="width:25%">Result</th>
+            <th style="width:25%">Covid News</th>
+            <th style="width:25%">Link</th>
+            <th style="width:25%">Date</th>
+            <th style="width:25%">Source</th>
         </tr>
     </table>
 </div>
-
+<h4 style="color: red;"><b>API</b></h4>
 {% endblock %}
 </body>
 </html>
