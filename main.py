@@ -20,9 +20,9 @@ def home_route():
 def bfsort_bp():
     return render_template("bfsort.html")
 
-@app.route('/bfbubble', methods=['POST'])
-def bfbubble():
-    return render_template("bfbubble.html")
+@app.route('/FLbubble', methods=['POST'])
+def FLbubble():
+    return render_template("FLbubble.html")
 
 
 @app.route('/email', methods=['POST'])
