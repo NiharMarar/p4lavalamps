@@ -6,6 +6,8 @@
 
 ### Project Team Checkpoint with Umbrella Guide
 
+## [This is the link to our Scrum Board review column with the weekly tickets](https://github.com/NiharMarar/p4lavalamps/projects/1#column-14401065)
+
 ## [This is the link to our Umbrella Ticket with Checkpoint Info](https://github.com/NiharMarar/p4lavalamps/issues/18)
 
 ## Covid DataBase
