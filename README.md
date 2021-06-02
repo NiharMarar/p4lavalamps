@@ -10,6 +10,12 @@
 
 ## [This is the link to our Umbrella Ticket with Checkpoint Info](https://github.com/NiharMarar/p4lavalamps/issues/18)
 
+# [Luca Pinto - Week 3 Ticket](https://github.com/NiharMarar/p4lavalamps/issues/17)
+# [Nihar Marar - Ticket 3](https://github.com/NiharMarar/p4lavalamps/issues/16)
+# [Colin Tran - Week 3 Ticket](https://github.com/NiharMarar/p4lavalamps/issues/14)
+# [Francis Lim - Week 3](https://github.com/NiharMarar/p4lavalamps/issues/3)
+# [Ticket #3: Bryce Modugno](https://github.com/NiharMarar/p4lavalamps/issues/19)
+
 ## Covid DataBase
 This is our trimester 3 project for AP CS Principles. We aspire to create an easy platform for users to get information on COVID-19.
 
