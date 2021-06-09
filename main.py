@@ -93,5 +93,20 @@ def main():
 def news():
     return render_template("news.html")
 
+
+@app.route('/api',  methods=['GET', 'POST'])
+def api():
+    # This is the setup for the rapid api
+    url = "https://covidtracking.com/data"
+    headers = {
+        'x-rapidapi-key': "fbc28ca63amsh13b8750406531e6p1bf8a9jsnabe9c216b21b",
+        'x-rapidapi-host': "quotes15.p.rapidapi.com"
+    }
+    # This code retrieves a quote from rapid api
+    response = requests.request("GET", url, headers=headers)
+    covid = response.json().get('content')
+    # This calls the cipher class with the quote and returns the object(cipher) to the html page
+    return render_template("api.html")
+
 if __name__ == "__main__":
     app.run(debug=True, port='5000', host='127.0.0.1')
