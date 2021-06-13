@@ -1,5 +1,7 @@
 from flask import Flask, render_template, request, redirect
 
+import logging
+
 import smtplib
 
 import requests
@@ -95,20 +97,25 @@ def news():
     return render_template("news.html")
 
 
-@app.route('/api',  methods=['GET', 'POST'])
+@app.route('/api',  methods=['GET'])
 def covidapi():
-
-    url = "https://covid-19-data.p.rapidapi.com/country/all"
+    url = "https://coronavirus-smartable.p.rapidapi.com/stats/v1/US/"
 
     headers = {
-    'x-rapidapi-key': "SIGN-UP-FOR-KEY",
-    'x-rapidapi-host': "covid-19-data.p.rapidapi.com"
-    }
+    'x-rapidapi-key': "6003d427abmsh9d31278e4490ff1p18e827jsn44353caf610b",
+    'x-rapidapi-host': "coronavirus-smartable.p.rapidapi.com"
+}
 
     response = requests.request("GET", url, headers=headers)
 
-    data = response.json().get('content')
-    return render_template("api.html", display = data)
+    # url = "https://api.covidactnow.org/v2/states.json?apiKey=a8a472880eb44127bfabd05147410ebc"
+
+    # response = requests.request("GET", url)
+
+    data = response.text
+    logging.info('this is the data', data)
+
+    return render_template("api.html", data=data)
 
 if __name__ == "__main__":
     app.run(debug=True, port='5000', host='127.0.0.1')
