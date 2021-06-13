@@ -2,7 +2,8 @@ from flask import Flask, render_template, request, redirect
 
 import smtplib
 
-
+import requests
+from pkg_resources import require
 
 app = Flask(__name__)
 
@@ -95,18 +96,19 @@ def news():
 
 
 @app.route('/api',  methods=['GET', 'POST'])
-def api():
-    # This is the setup for the rapid api
-    url = "https://covidtracking.com/data"
+def covidapi():
+
+    url = "https://covid-19-data.p.rapidapi.com/country/all"
+
     headers = {
-        'x-rapidapi-key': "fbc28ca63amsh13b8750406531e6p1bf8a9jsnabe9c216b21b",
-        'x-rapidapi-host': "quotes15.p.rapidapi.com"
+    'x-rapidapi-key': "SIGN-UP-FOR-KEY",
+    'x-rapidapi-host': "covid-19-data.p.rapidapi.com"
     }
-    # This code retrieves a quote from rapid api
+
     response = requests.request("GET", url, headers=headers)
-    covid = response.json().get('content')
-    # This calls the cipher class with the quote and returns the object(cipher) to the html page
-    return render_template("api.html")
+
+    data = response.json().get('content')
+    return render_template("api.html", display = data)
 
 if __name__ == "__main__":
     app.run(debug=True, port='5000', host='127.0.0.1')
