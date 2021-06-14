@@ -99,21 +99,18 @@ def news():
 
 @app.route('/api',  methods=['GET'])
 def covidapi():
-    url = "https://coronavirus-smartable.p.rapidapi.com/stats/v1/US/"
+    url = "https://vaccovid-coronavirus-vaccine-and-treatment-tracker.p.rapidapi.com/api/covid-ovid-data/sixmonth/USA"
 
     headers = {
     'x-rapidapi-key': "6003d427abmsh9d31278e4490ff1p18e827jsn44353caf610b",
-    'x-rapidapi-host': "coronavirus-smartable.p.rapidapi.com"
-}
+    'x-rapidapi-host': "vaccovid-coronavirus-vaccine-and-treatment-tracker.p.rapidapi.com"
+    }
 
     response = requests.request("GET", url, headers=headers)
 
-    # url = "https://api.covidactnow.org/v2/states.json?apiKey=a8a472880eb44127bfabd05147410ebc"
-
-    # response = requests.request("GET", url)
-
     data = response.text
-    logging.info('this is the data', data)
+    # covdata = response.json().get('data')
+    # logging.info('this is the data', data)
 
     return render_template("api.html", data=data)
 
