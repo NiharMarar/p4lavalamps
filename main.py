@@ -92,12 +92,7 @@ def datatable():
 def main():
     return render_template("home.html")
 
-@app.route('/news')
-def news():
-    return render_template("news.html")
-
-
-@app.route('/api',  methods=['GET'])
+@app.route('/news',  methods=['GET'])
 def covidapi():
     url = "https://vaccovid-coronavirus-vaccine-and-treatment-tracker.p.rapidapi.com/api/covid-ovid-data/sixmonth/USA"
 
@@ -112,7 +107,7 @@ def covidapi():
     # covdata = response.json().get('data')
     # logging.info('this is the data', data)
 
-    return render_template("api.html", data=data)
+    return render_template("news.html", data=data)
 
 if __name__ == "__main__":
     app.run(debug=True, port='5000', host='127.0.0.1')
