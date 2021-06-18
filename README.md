@@ -4,18 +4,6 @@
 ## [Project Plan](https://docs.google.com/document/d/1jFsNd60ciywY2JGjk6y6JcO2YbzQW44f9djSQCLXTu0/edit)
 
 
-### Project Team Checkpoint with Umbrella Guide
-
-## [This is the link to our Scrum Board review column with the weekly tickets](https://github.com/NiharMarar/p4lavalamps/projects/1#column-14401065)
-
-## [This is the link to our Umbrella Ticket with Checkpoint Info](https://github.com/NiharMarar/p4lavalamps/issues/18)
-
-### [Luca Pinto - Pre-Final Project Team Checkpoint Ticket](https://github.com/NiharMarar/p4lavalamps/issues/17)
-### [Nihar Marar - Pre-Final Project Team Checkpoint Ticket](https://github.com/NiharMarar/p4lavalamps/issues/16)
-### [Colin Tran - Pre-Final Project Team Checkpoint Ticket](https://github.com/NiharMarar/p4lavalamps/issues/14)
-### [Francis Lim - Pre-Final Project Team Checkpoint Ticket](https://github.com/NiharMarar/p4lavalamps/issues/3)
-### [Bryce Modugno - Pre-Final Project Team Checkpoint Ticket](https://github.com/NiharMarar/p4lavalamps/issues/19)
-
 ## Covid DataBase
 This is our trimester 3 project for AP CS Principles. We aspire to create an easy platform for users to get information on COVID-19.
 
@@ -102,6 +90,20 @@ This information can also be found on our scrum board:
 [Ticket #4](https://github.com/NiharMarar/p4lavalamps/projects/1#card-57811783)
 
 [Ticket #5](https://github.com/NiharMarar/p4lavalamps/projects/1#card-57811796)
+
+
+### Project Team Checkpoint with Umbrella Guide
+
+## [This is the link to our Scrum Board review column with the weekly tickets](https://github.com/NiharMarar/p4lavalamps/projects/1#column-14401065)
+
+## [This is the link to our Umbrella Ticket with Checkpoint Info](https://github.com/NiharMarar/p4lavalamps/issues/18)
+
+### [Luca Pinto - Pre-Final Project Team Checkpoint Ticket](https://github.com/NiharMarar/p4lavalamps/issues/17)
+### [Nihar Marar - Pre-Final Project Team Checkpoint Ticket](https://github.com/NiharMarar/p4lavalamps/issues/16)
+### [Colin Tran - Pre-Final Project Team Checkpoint Ticket](https://github.com/NiharMarar/p4lavalamps/issues/14)
+### [Francis Lim - Pre-Final Project Team Checkpoint Ticket](https://github.com/NiharMarar/p4lavalamps/issues/3)
+### [Bryce Modugno - Pre-Final Project Team Checkpoint Ticket](https://github.com/NiharMarar/p4lavalamps/issues/19)
+
 
 
 ## Survey Table (CRUD)
