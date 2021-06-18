@@ -1,6 +1,6 @@
 
 
-## [Runtime link](p4lavalamps.cf)
+## [Runtime link](https://lavalamps.nighthawkcodingsociety.com/#about)
 ## [Project Plan](https://docs.google.com/document/d/1jFsNd60ciywY2JGjk6y6JcO2YbzQW44f9djSQCLXTu0/edit)
 
 
