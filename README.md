@@ -4,16 +4,17 @@
 ## [Here is the link to our How its Made Information/Grading Presentation](https://docs.google.com/presentation/d/1L2icmOVBnGYO-GxOyGtU7L8a96rjfiJIoQ2hzcZ4kuA/edit?usp=sharing)
 ## [Here is the link to our Scrum Board where our tickets and issues can be found](https://github.com/NiharMarar/p4lavalamps/projects/1)
 
-## [Project Plan](https://docs.google.com/document/d/1jFsNd60ciywY2JGjk6y6JcO2YbzQW44f9djSQCLXTu0/edit)
+## [Here is the link to the Project Plan](https://docs.google.com/document/d/1jFsNd60ciywY2JGjk6y6JcO2YbzQW44f9djSQCLXTu0/edit)
 
 
-## Covid DataBase
-This is our trimester 3 project for AP CS Principles. We aspire to create an easy platform for users to get information on COVID-19.
+## HOW ITS MADE INFORMATION
+Our project was made through the use of various skills and technicals learned throughout the course of AP Computer Science Principles
 
-## How to run our Covid Database
-RPI / AWS in progress at the moment.
+This is our trimester 3 project for AP CS Principles. We aspire to create an easy platform for users to get information on COVID-19. We used code including HTML, CSS, Javascript, and other front end and bac end code in order to create a functional and efficient Covid-19 Information website. Our plan was to make our website show people all covid counts and cases and show them all the information about covid. Make it into a news site as well with multiple api from other sites. Explain how covid works, what symptoms, data, api, database, a login system and also an email system. Covid has been a huge factor in everyone’s life and we want people to know the latest Covid news because this pandemic isn’t going anywhere soon. We used code and references from projects, routes, flask, sql, api, python, html, and will use github. Maybe even a little JS. Will also use POST and have JSON.
 
-As of now, you can clone project onto your own machine, and run it from intellij.
+In our website, we created databases, REST APIs, informational subpages, individual sections with minilabs through the use of blueprints. Our website goes beyond basic Python fundamentals and a simple website, by introducing the use of POST and including a database into our website. We implemented a database that can store the user’s data as well as display data and information about Covid. We used SQLAlchemy to help with our databases. Our website y have multiple apis. Our website allows entertainment and learning in the form of getting to view data and information about Covid kind of like a news site. In terms of things our website will actually effect, our website will bring something entertaining and interactive to Night at the Museum and strengthen our teams portfolio as it will provide proof of our competency with web development and data
+
+
 
 # Easter Egg
 Our easter egg is accesible through the navigation bar as a hidden button, but can change with future updates. Because website is not run off RPI / AWS yet, you can clone project and run project on your own machine. The easter egg can be found between the "mission" and "survey" buttons.
